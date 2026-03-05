@@ -34,6 +34,23 @@ B. The Purchaser desires to acquire shares of the Company's stock, subject to th
 
 2.2 **Unvested Shares.** Unvested Shares remain subject to the Company's Repurchase Option (Section 3).
 
+2.3 **Acceleration on Change of Control.**
+
+{{#IF ACCELERATION_DOUBLE_TRIGGER}}
+(a) **Double-Trigger Acceleration.** In the event of a Change of Control (as defined below), if the Purchaser's Service (as defined below) is terminated by the Company (or its successor) without Cause, or by the Purchaser for Good Reason, in either case within twelve (12) months following such Change of Control, then 100% of the Purchaser's then-unvested Shares shall immediately vest as of the date of such termination.
+{{/IF}}
+
+{{#IF ACCELERATION_SINGLE_TRIGGER}}
+(a) **Single-Trigger Acceleration.** In the event of a Change of Control (as defined below), 100% of the Purchaser's then-unvested Shares shall immediately vest as of the date of such Change of Control.
+{{/IF}}
+
+(b) **Definitions.**
+- **"Change of Control"** means: (i) a merger, consolidation, or reorganization of the Company in which the stockholders of the Company immediately prior to the transaction hold less than 50% of the voting power of the surviving entity; (ii) a sale of all or substantially all of the Company's assets; or (iii) any transaction or series of related transactions in which more than 50% of the Company's voting power is transferred.
+- **"Cause"** means: (i) material breach of this Agreement or any other agreement with the Company; (ii) conviction of, or plea of guilty or no contest to, a felony or crime of moral turpitude; (iii) willful misconduct or gross negligence in the performance of duties; or (iv) fraud, embezzlement, or material dishonesty.
+- **"Good Reason"** means, without the Purchaser's consent: (i) a material reduction in the Purchaser's title, authority, or responsibilities; (ii) a material reduction in the Purchaser's base compensation; or (iii) a relocation of the Purchaser's principal place of work by more than 50 miles. The Purchaser must provide 30 days' written notice and the Company shall have 30 days to cure.
+- **"Service"** means the Purchaser's employment with, consulting for, or service as a director of the Company or any successor entity.
+- **"Termination of Service"** shall be determined by the Board of Directors in its reasonable discretion.
+
 **3. COMPANY REPURCHASE OPTION**
 
 3.1 **Repurchase Right.** In the event the Purchaser's service to the Company terminates for any reason (whether voluntary or involuntary, with or without cause), the Company shall have the right (but not the obligation) to repurchase any or all of the Purchaser's then-unvested Shares at a price equal to the original Purchase Price per share (${{PAR_VALUE}}).
@@ -61,7 +78,7 @@ B. The Purchaser desires to acquire shares of the Company's stock, subject to th
 
 6.1 The Purchaser represents that the Shares are being acquired for investment purposes only and not with a view to distribution or resale.
 
-6.2 The Purchaser is an "accredited investor" as defined in Rule 501 of Regulation D under the Securities Act of 1933, or has such knowledge and experience in financial and business matters that the Purchaser is capable of evaluating the merits and risks of this investment.
+6.2 The Purchaser has such knowledge and experience in financial and business matters that the Purchaser is capable of evaluating the merits and risks of this investment. {{#IF ACCREDITED_INVESTOR}}The Purchaser is an "accredited investor" as defined in Rule 501 of Regulation D under the Securities Act of 1933.{{/IF}}
 
 6.3 The Purchaser understands that the Shares have not been registered under the Securities Act and are "restricted securities" within the meaning of Rule 144.
 

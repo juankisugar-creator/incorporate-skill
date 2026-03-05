@@ -74,6 +74,15 @@ stock:
 #     - name: "Jane Smith"
 #       title: "Manager"
 
+# === VESTING ===
+vesting:
+  period: "4 years"                        # Total vesting period
+  cliff: "1 year"                          # Time before first shares vest
+  acceleration: "double-trigger"           # none | single-trigger | double-trigger
+  # none = no acceleration on change of control
+  # single-trigger = 100% vests on acquisition
+  # double-trigger = 100% vests if terminated within 12mo post-acquisition (RECOMMENDED)
+
 # === OPTION POOL / RESERVED SHARES ===
 option_pool:
   shares: 100000                           # Shares reserved for future employees/advisors
