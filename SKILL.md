@@ -107,6 +107,18 @@ After generating docs, brief the user on filing sequence:
 8. Open corporate bank account
 9. Execute Restricted Stock Purchase Agreements with all stockholders
 
+## Post-Filing Guide
+
+After documents are generated and filed, read `references/post-filing-learnings.md` for real-world guidance on:
+- Actual filing costs (vs. estimates)
+- SilverFlume server error handling
+- EIN application gotchas (non-US founders)
+- 83(b) election 30-day deadline management
+- Common mistakes to avoid
+- DIY vs. lawyer cost comparison
+
+This file was built from a real Nevada C-Corp filing (March 2026) and captures lessons that aren't in any template.
+
 ## Important Notes
 
 - These are standard formation documents, not legal advice
