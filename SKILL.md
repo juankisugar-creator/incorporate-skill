@@ -46,7 +46,11 @@ Ask the user these questions (or accept a pre-filled config):
 - Consideration type (default: "Services")
 - Principal office address (default: registered agent address)
 
-Validate the config: share percentages must total 100%, authorized shares must cover all issuances.
+**Option Pool (recommended):**
+- Option pool size (shares reserved for future employees/advisors)
+- Standard startup range: 10-20% of authorized common
+
+Validate the config: share percentages must total 100%, authorized shares must cover all issuances (including option pool reserve).
 
 ### Step 2: Select Entity + State References
 
@@ -71,8 +75,9 @@ Read each template from `assets/templates/` and replace all `{{VARIABLES}}` with
 3. **Action of Incorporator** — appoints initial board
 4. **Organizational Resolutions** — board adopts bylaws, elects officers, authorizes stock
 5. **Stock Ledger** — records all share ownership + voting power summary
-6. **Filing Checklist** — step-by-step guide with links to each document
+6. **Filing Checklist** — step-by-step guide with links, 83(b) deadline tracking, Year 1 compliance calendar, and bank account requirements
 7. **83(b) Election Form** *(auto-generated if stock issued for services)* — IRS election to lock in tax basis at par value. Includes instructions + filing checklist. CRITICAL: must be filed within 30 days of stock issuance.
+8. **Restricted Stock Purchase Agreement (RSPA)** — template for each stockholder receiving shares. Covers vesting, repurchase option, transfer restrictions, 83(b) acknowledgment, spousal consent. ⚠️ Complex arrangements should involve legal review.
 
 **Documents generated (LLC):**
 1. **Articles of Organization** — filed with Secretary of State (template: `llc-01-articles-of-organization.md`)
@@ -104,8 +109,8 @@ After generating docs, brief the user on filing sequence:
 5. Issue stock / record in ledger
 6. **File 83(b) elections within 30 days** — every stockholder receiving shares for services (see state reference for details)
 7. Obtain EIN from IRS (note: non-US founders need a US-based officer with SSN to apply online)
-8. Open corporate bank account
-9. Execute Restricted Stock Purchase Agreements with all stockholders
+8. Execute Restricted Stock Purchase Agreements (RSPAs) with all stockholders
+9. Open corporate bank account (bring: EIN, filed Articles, Bylaws, Resolutions, IDs)
 
 ## Post-Filing Guide
 

@@ -74,6 +74,12 @@ stock:
 #     - name: "Jane Smith"
 #       title: "Manager"
 
+# === OPTION POOL / RESERVED SHARES ===
+option_pool:
+  shares: 100000                           # Shares reserved for future employees/advisors
+  percentage: "1.00%"                      # Of total authorized common
+  notes: "Standard startup range: 10-20%. Carve out before issuing founder shares."
+
 # === CAP TABLE ===
 # List all shareholders with their allocations
 shareholders:
